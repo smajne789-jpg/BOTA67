@@ -74,7 +74,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 BOT_USERNAME = os.getenv("BOT_USERNAME", "my_bot")
 ADMIN_GROUP_ID = int(os.getenv("ADMIN_GROUP_ID", "0"))
 SUPPORT_USERNAME = os.getenv("SUPPORT_USERNAME", "@support")
-REFERRAL_REWARD = float(os.getenv("REFERRAL_REWARD", "5"))
+REFERRAL_REWARD = float(os.getenv("REFERRAL_REWARD", "0.03"))
 MIN_WITHDRAW = float(os.getenv("MIN_WITHDRAW", "50"))
 FLOOD_LIMIT = int(os.getenv("FLOOD_LIMIT", "1"))
 CAPTCHA_ENABLED = os.getenv("CAPTCHA_ENABLED", "true").lower() == "true"
